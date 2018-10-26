@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Exercicio3">
+    <meta name="keywords" content="HTML">
+    <meta name="author" content="João Ferraz">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TAW-MOD2-EX3</title>
+</head>
+<body>
+    <form action="http://www.webucator.com/course-demos/htm101/process-form.cfm" method="post">
+        Username: <input type="text" name="Username"> <br>
+        Pw: <input type="password" name="pw"> <br>
+        <input type="hidden" id="emailME" name="emailME" value="joaonunofcp@hotmail.com">
+        <input type="submit" value="Register">
+        <input type="reset"> <br>
+        <input type="radio" name="gender" id="genderm" value="m"> Male<br>
+        <input type="radio" name="gender" id="genderf" value="f"> Female<br>
+        <label for="male"> male </label> <input type="checkbox" name="terms" id="terms" value="male"> <br>
+        <label for="female"> female </label><input type="checkbox" name="terms" id="terms" value="female"> <br>
+        <label for="select" name="referral" id="referral"></label> 
+        <select>
+            <option value="0">--Please choose--</option>
+            <option value="wom">Word of Mouth</option>
+            <option value="other">other</option>
+            <optgroup label="Search Engine">
+                <option value="Google">Google</option>
+                <option value="Yahoo">Yahoo!</option>
+                <option value="MSN">MSN</option>
+            </optgroup>
+            <textarea name="comments" id="comments" rows="10" cols="30"></textarea>
+        </select>
+    </form>
+</body>
+</html>
